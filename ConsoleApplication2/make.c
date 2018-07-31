@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 void test();
-int main() {
+int main1() {
+
 	float a, b, c, d;
 	printf("ÇëÊäÈë4¸öÊı×Ö\r\n");
 	scanf("%f,%f ,%f,%f", &a, &b, &c, &d);
@@ -18,6 +19,7 @@ int main() {
 		printf("%d/%d = %d/%d\r\n", (int)a, (int)b, (int)c, (int)d);
 	}
 	test();
+	return 0;
 }
 void test() {
 	char *str = "²âÊÔ°¡";

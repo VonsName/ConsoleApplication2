@@ -18,5 +18,8 @@
     <ClCompile Include="make.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="grap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
