@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 void test();
-int main1() {
+int main2() {
 
 	float a, b, c, d;
 	printf("ÇëÊäÈë4¸öÊı×Ö\r\n");

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <graphics.h>
-int main() {
+int main1() {
 	//初始化图形窗口
 	initgraph(640, 480);
 	//设置背景颜色
@@ -15,5 +15,8 @@ int main() {
 	getchar();
 	//关闭图形窗口
 	closegraph();
+
+	int a = 10;
+	//int* pa = a;
 	return 0;
 }

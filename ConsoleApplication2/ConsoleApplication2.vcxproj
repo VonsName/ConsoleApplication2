@@ -148,6 +148,7 @@
   <ItemGroup>
     <ClCompile Include="grap.cpp" />
     <ClCompile Include="make.c" />
+    <ClCompile Include="test.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
