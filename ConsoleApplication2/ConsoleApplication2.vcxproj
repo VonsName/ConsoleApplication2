@@ -147,8 +147,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="grap.cpp" />
+    <ClCompile Include="main.c" />
     <ClCompile Include="make.c" />
     <ClCompile Include="test.c" />
+    <ClCompile Include="test1.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

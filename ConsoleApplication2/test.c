@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <conio.h>
 
-int main() {
+int main01() {
 	char name[] = "appale\n";
 	printf(name);
 	char *al = "nininin\n";
