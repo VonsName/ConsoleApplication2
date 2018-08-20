@@ -6,7 +6,7 @@
  * C语言93实例练习
  */
 
-int main()
+int main93()
 {
 	clock_t start, end;
 	long  a = 100000000L;
@@ -29,5 +29,12 @@ int main()
 	}
 	finish = time(NULL);
 	printf("时间间隔为%f\n", difftime(finish, begin));
+
+	struct tm * timeinfo;
+	time_t rawtime;
+	time(&rawtime);
+
+	timeinfo = localtime(&rawtime);
+	printf("当前本地时间为: %s", asctime(timeinfo));
 	return 0;
 }

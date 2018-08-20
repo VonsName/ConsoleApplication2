@@ -54,5 +54,17 @@
     <ClCompile Include="c93.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="c91.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="c89.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="c88.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="c85.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
