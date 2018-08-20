@@ -2,6 +2,9 @@
 #include <stdlib.h>
 #include <string.h>
 
+/**
+ * C语言练习实例100
+ */
 typedef struct Student
 {
 	int no;
@@ -94,12 +97,14 @@ void read_file()
 
 	for (int i=0;i<n;i++)
 	{
+		/*	printf("学号:%d  姓名:%s C:%d 数学:%d 英语:%d 平均分:%d\n",
+				stu[i].no, stu[i].name, stu[i].c, stu[i].math, stu[i].english, stu[i].avg);*/
 		printf("学号:%d  姓名:%s C:%d 数学:%d 英语:%d 平均分:%d\n",
-			stu[i].no, stu[i].name, stu[i].c, stu[i].math, stu[i].english, stu[i].avg);
+			(*(stu+i)).no, (*(stu + i)).name, (*(stu + i)).c, (*(stu + i)).math, (*(stu + i)).english, (*(stu + i)).avg);
 	}
 	fclose(fp);
 }
-int main()
+int main100()
 {
 	//record();
 

@@ -36,5 +36,23 @@
     <ClCompile Include="priactice.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="c99.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="c98.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="c97.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="c96.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="c94.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="c93.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

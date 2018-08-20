@@ -146,6 +146,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="c93.c" />
+    <ClCompile Include="c94.c" />
+    <ClCompile Include="c96.c" />
+    <ClCompile Include="c97.c" />
+    <ClCompile Include="c98.c" />
+    <ClCompile Include="c99.c" />
     <ClCompile Include="grap.cpp" />
     <ClCompile Include="main.c" />
     <ClCompile Include="main2.c" />
