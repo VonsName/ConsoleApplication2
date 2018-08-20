@@ -148,7 +148,9 @@
   <ItemGroup>
     <ClCompile Include="grap.cpp" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="main2.c" />
     <ClCompile Include="make.c" />
+    <ClCompile Include="priactice.c" />
     <ClCompile Include="test.c" />
     <ClCompile Include="test1.c" />
   </ItemGroup>
